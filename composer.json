@@ -1,0 +1,14 @@
+{
+    "name": "slymetrix/laravel-mandrill",
+    "description": "Package to handle Mailchimp transactional emails (Mandrill)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Domenico Cirasino",
+            "email": "domenico.cirasino@slymetrix.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
