@@ -1,6 +1,7 @@
 {
     "name": "slymetrix/laravel-mandrill",
     "description": "Package to handle Mailchimp transactional emails (Mandrill)",
+    "homepage": "https://github.com/slymetrix/laravel-mandrill",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +11,23 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "myclabs/php-enum": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slymetrix\\LaravelMandrill\\": "src"
+        }
+    },
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Slymetrix\\LaravelMandrill\\ServiceProvider"
+            ]
+        }
+    }
 }
